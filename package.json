@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "datareachable dev",
-    "build": "serve .",
+    "build": "datareachable build",
     "build-dev": "datareachable build-dev"
   },
   "keywords": [],
@@ -13,6 +13,6 @@
   "license": "ISC",
   "dependencies": {
     "serve": "^13.0.2",
-    "test-bin-he2": "^0.0.71"
+    "test-bin-he2": "^0.0.50"
   }
 }
