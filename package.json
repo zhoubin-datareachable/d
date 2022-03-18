@@ -5,13 +5,14 @@
   "main": "index.js",
   "scripts": {
     "start": "datareachable dev",
-    "build": "datareachable build",
+    "build": "serve .",
     "build-dev": "datareachable build-dev"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "serve": "^13.0.2",
     "test-bin-he2": "^0.0.71"
   }
 }
